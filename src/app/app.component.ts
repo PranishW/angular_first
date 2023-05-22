@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'partc';
+  title = 'User Registration Form';
+  dname = ""
+  demail = ""
+  dphone = ""
+  getValues(val:any)
+  {
+    this.dname = val.name
+    this.demail = val.email
+    this.dphone = val.phone
+  }
 }

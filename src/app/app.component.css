@@ -1,0 +1,24 @@
+div{
+    margin-top: 1rem;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    height: 2rem;
+    width: 6rem;
+    margin-top: 1rem;
+    background-color:teal;
+    color: white;
+    border-radius: 20px;
+}
+button:hover{
+    border-color: aliceblue;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
